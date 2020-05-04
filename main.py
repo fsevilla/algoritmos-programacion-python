@@ -4,7 +4,7 @@ import operaciones
 fileRef = open('resultados.txt', 'a+')
 # r=read, w=write, a=append
 
-resultadoSuma = operaciones.sumar(4,6)
+resultadoSuma = operaciones.sumar(4,8)
 operaciones.resultados.append(resultadoSuma)
 sumaCadena = str(4)+'+'+str(6)+'='+str(resultadoSuma)+'\n'
 fileRef.write(sumaCadena)
